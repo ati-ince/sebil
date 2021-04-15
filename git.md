@@ -1,4 +1,4 @@
-This documentation is present for sharing the most important git feature and bug fixing methods
+This documentation is presented for sharing the most important git feature and bug fixing methods
 
 ### **Check last *local* commit version**
 
@@ -20,4 +20,4 @@ $ git config --global user.email
 ```shell
 $ /Library/Developer/CommandLineTools/usr/share/git-core/gitconfig
 $ /Users/abdullah/.git-credentials
-```
+``` 

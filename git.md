@@ -1,4 +1,4 @@
-This documentation is presented for sharing the most important git feature and bug fixing methods
+This documentation is presented for sharing the most important git feature and bug fixing methods.
 
 ### **Check last *local* commit version**
 

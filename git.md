@@ -7,6 +7,14 @@ $ cat .git/HEAD
 $ cat .git/refs/heads/master
 $ git log -1
 ```
+
+### **Create new branch in Repo**
+
+```shell
+$ git checkout -b <branch-name> # Create a new branch and check it out
+$ git push --set-upstream <remote-name> <branch-name> # then you branh is ready , Where <remote-name> is typically origin
+```
+
 ### **Show Global Config**
 
 ```shell
@@ -77,3 +85,4 @@ e6924c9c - Yulin Li, 2 weeks ago : pronunciation assessment javascript browser s
 ## Referances
 
 [Online Git Book](https://git-scm.com/book/en/v2/)
+[web-branch](https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch)

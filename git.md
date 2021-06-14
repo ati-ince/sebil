@@ -33,6 +33,25 @@ $ git push origin -u head
 $ git push origin --delete main ## finito
 ```
 
+### **Difference between file in local repository and origin**
+
+After running this script, you will be finished comparing the local Git and remote Git using the last commit number.
+
+```shell
+#!/bin/bash
+git fetch
+
+var_local=`cat .git/refs/heads/master`
+var_remote=`git log origin/master -1 | head -n1 | cut -d" " -f2`
+
+if [ "$var_remote" = "$var_local" ]; then
+    echo "Strings are equal." #1
+else
+    echo "Strings are not equal." # 0 if you want
+fi
+```
+
+
 ## **Mac Credential Configuration Files**
 
 ```shell

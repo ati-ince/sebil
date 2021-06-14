@@ -23,6 +23,16 @@ $ git config --global user.name
 $ git config --global user.email
 ```
 
+### **Change Branch Name**
+
+```shell
+$ git checkout <old_name> #old name is main originally, I tested with this repo
+$ git branch -m <new_name> # changed to head
+$ git push origin -u head
+# then here -we using github- we need to change ongoing branch main->head then after we can delete 
+$ git push origin --delete main ## finito
+```
+
 ## **Mac Credential Configuration Files**
 
 ```shell

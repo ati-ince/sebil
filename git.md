@@ -1,5 +1,10 @@
 This documentation is presented for sharing the most important git feature and bug fixing methods.
 
+### **Restoration of local branch and its files**
+```shell
+$ git restore file_name #with that clean last uncommitted file change back
+```
+
 ### **Check last *local* commit version**
 
 ```shell

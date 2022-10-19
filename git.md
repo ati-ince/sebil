@@ -17,7 +17,7 @@ $ git log -1
 
 ```shell
 $ git checkout -b <branch-name> # Create a new branch and check it out
-$ git push --set-upstream <remote-name> <branch-name> # then you branh is ready , Where <remote-name> is typically origin
+$ git push --set-upstream <remote-name> <branch-name> # then you branh is ready , Where <remote-name> is typically origin -> git push --set-upstream origin main
 ```
 
 ### **Show Global Config**

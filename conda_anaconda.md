@@ -16,7 +16,12 @@ $ #clone and create first than delete old one :(
 $ conda create -n new_env python=3.8
 ```
 
-### **delete an conda env **
+### **delete/remove an conda env **
 ```shell
 $ conda env remove -n ENV_NAME
+```
+
+### **change python version of env **
+```shell
+$ conda install python=3.6 #eg.
 ```

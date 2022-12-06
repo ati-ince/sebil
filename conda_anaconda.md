@@ -15,3 +15,8 @@ $ #clone and create first than delete old one :(
 ```shell
 $ conda create -n new_env python=3.8
 ```
+
+### **delete an conda env **
+```shell
+$ conda env remove -n ENV_NAME
+```

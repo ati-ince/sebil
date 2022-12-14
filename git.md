@@ -5,6 +5,11 @@ This documentation is presented for sharing the most important git feature and b
 $ git restore file_name #with that clean last uncommitted file change back
 ```
 
+### **Update latest commit comment**
+```shell
+$ git commit --amend -m "New commit message." # if did not push yet
+```
+
 ### **Check last *local* commit version**
 
 ```shell

@@ -5,6 +5,13 @@ This documentation is presented for sharing the most important git feature and b
 $ git restore file_name #with that clean last uncommitted file change back
 ```
 
+### **Delete file from repository**
+```shell
+$ git rm file/name
+$ git commit -m 'commit note'
+$ git push
+```
+
 ### **Update latest commit comment**
 ```shell
 $ git commit --amend -m "New commit message." # if did not push yet

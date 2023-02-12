@@ -1,5 +1,14 @@
 This documentation is presented for sharing the most important git feature and bug fixing methods.
 
+### **Make local folder git repo**
+```shell
+$ git init -b main
+$ git add . && git commit -m "initial commit"
+# create a repo in githug and copy the url
+$ git remote add <name> <url>
+$ git push --set-upstream <name> main
+```
+
 ### **Restoration of local branch and its files**
 ```shell
 $ git restore file_name #with that clean last uncommitted file change back

@@ -109,33 +109,23 @@ $ git log
 commit 8fx...x21 (HEAD -> ML_image, origin/ML_image)
 Author: USER <ati@mail.address>
 Date:   Wed Mar 1 11:40:45 2023 +0100
-
     lates commits, bla-bla-bla
-
 commit 91x...x1d
 Author: USER <ati@mail.address>
 Date:   Tue Feb 21 16:35:33 2023 +0100
-
     modf script SSD for auto object calculation for trainings, also create new script for TRAINING ML
-
 commit 8f4x...xef51
 Author: USER <ati@mail.address>
 Date:   Tue Feb 21 16:34:43 2023 +0100
-
     Modif and create script for data sets preparation process
-
 commit 5ex...x8
 Author: USER <ati@mail.address>
 Date:   Tue Feb 21 16:33:48 2023 +0100
-
     setup documents and guide
-
 commit 6dx...x1f
 Author: USER <ati@mail.address>
 Date:   Tue Feb 21 16:32:14 2023 +0100
-
     project clean-up
-
 </p>
 </details>
 

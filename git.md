@@ -93,6 +93,64 @@ $ /Library/Developer/CommandLineTools/usr/share/git-core/gitconfig
 $ /Users/abdullah/.git-credentials
 ``` 
 
+
+## **Bring previous commits**
+
+```shell
+$ git log # first check commits and decide which location want to go the result like below:
+``` 
+As you see below the latest commit: <"8fx...x21 ">
+And start point is: <"6dx...x1f">
+
+<details><summary>commit history</summary>
+<p> 
+USER@PROFILE MINGW64 ~/ATI_Workspace/TME_bitbucket/navi-clone-folder (ML_image)
+$ git log
+commit 8fx...x21 (HEAD -> ML_image, origin/ML_image)
+Author: USER <ati@mail.address>
+Date:   Wed Mar 1 11:40:45 2023 +0100
+
+    lates commits, bla-bla-bla
+
+commit 91x...x1d
+Author: USER <ati@mail.address>
+Date:   Tue Feb 21 16:35:33 2023 +0100
+
+    modf script SSD for auto object calculation for trainings, also create new script for TRAINING ML
+
+commit 8f4x...xef51
+Author: USER <ati@mail.address>
+Date:   Tue Feb 21 16:34:43 2023 +0100
+
+    Modif and create script for data sets preparation process
+
+commit 5ex...x8
+Author: USER <ati@mail.address>
+Date:   Tue Feb 21 16:33:48 2023 +0100
+
+    setup documents and guide
+
+commit 6dx...x1f
+Author: USER <ati@mail.address>
+Date:   Tue Feb 21 16:32:14 2023 +0100
+
+    project clean-up
+
+</p>
+</details>
+
+
+Then we can go which commit location we want, for example nelow we went to starting-point: <"6dx...x1f"> 
+```shell
+$ git checkout 6dx...x1f #we can use any identifier 
+``` 
+
+When we done, we can go back to latest commit, means with using branch name jump to the location: 
+```shell
+$ git checkout BRANCH_NAME #we can go back like that, there are morre than one solution for this part. Mine is easy-to-understand
+``` 
+
+
 ## **Check previous commits with id and commit note**
 
 **full id and commit note**

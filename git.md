@@ -45,7 +45,7 @@ $ git push --set-upstream <remote-name> <branch-name> # then you branh is ready 
 
 ```shell
 $ git branch -d branch_name # delete local branch
-
+$ git push origin --delete branch_name # delete remote branch
 ```
 
 ### **Change Global Config**

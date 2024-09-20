@@ -8,7 +8,8 @@ $ conda create --name cloned_env --clone original_env
 
 ### **rename conda env **
 ```shell
-$ #clone and create first than delete old one :(
+$ conda create --name <new_env_name> --clone <old_env_name>
+$ conda remove --name <old_env_name> --all # little annoying method
 ```
 
 ### **create a new  conda env **

@@ -26,3 +26,8 @@ $ conda env remove -n ENV_NAME
 ```shell
 $ conda install python=3.6 #eg.
 ```
+
+### **new environment in a specific directory**
+```shell
+$ conda create --prefix D:/path/to/env_name python=3.x
+```

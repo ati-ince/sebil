@@ -48,6 +48,12 @@ $ git branch -d branch_name # delete local branch
 $ git push origin --delete branch_name # delete remote branch
 ```
 
+### **Clean cache in Local Repo for organize next commit**
+
+```shell
+$  git rm --cached -r folder/ # etc
+```
+
 ### **Change Global Config**
 
 ```shell
